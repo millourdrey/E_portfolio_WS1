@@ -1,29 +1,30 @@
 body {
-    background-color: bisque;
-    align-content: center;
-    margin: 0;
-    padding:0;
-    color: black;
-
-}
-
-h1 {
+    background-color: lightblue;
+    text-align: left;
+  }
+  header{
     text-align: center;
-    color:red;
-}
+    color: rgb(0, 0, 0);
 
-header{
-    text-align: justify;
-    color: red;
-    padding: 10px;
-}
-header p{
-    color: black;
+  }
+
+  
+  .header{
     text-align: center;
-}
-img{
+
+  }
+  p{
+    color: black;
+  }
+  .logo{
+    text-align: left;
+  }
+  .navlinks{
+    text-align: right;
+
+  }
+  .navbar{
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    animation-delay: 0ms;
-    size: 100px;
-    line-height: 100px;
-}
+  }
