@@ -1,30 +1,81 @@
-body {
+body{
     background-color: lightblue;
-    text-align: left;
-  }
-  header{
-    text-align: center;
-    color: rgb(0, 0, 0);
+    margin:0;
+    font-family: Arial, sans-serif;
+}
 
-  }
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background-color:#333;
+    padding:15px;
+}
 
-  
-  .header{
-    text-align: center;
+.logo img{
+    border-radius:10px;
+}
 
-  }
-  p{
-    color: black;
-  }
-  .logo{
-    text-align: left;
-  }
-  .navlinks{
-    text-align: right;
+.navlinks a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+}
 
-  }
-  .navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
+.navlinks a:hover{
+    color:yellow;
+}
+
+.container{
+    text-align:center;
+    padding:30px;
+}
+
+section{
+    margin:20px;
+    padding:20px;
+    background:white;
+    border-radius:10px;
+}
+
+h1{
+    color:darkblue;
+}
+
+button{
+    padding:10px 20px;
+    margin:10px;
+    border:none;
+    background:darkblue;
+    color:white;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:green;
+}
+
+footer{
+    text-align:center;
+    background:#333;
+    color:white;
+    padding:15px;
+}
+
+.dark-mode{
+    background:#222;
+    color:white;
+}
+
+.dark-mode section{
+    background:#444;
+}
+
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3,
+.dark-mode p,
+.dark-mode li{
+    color:white;
+}
