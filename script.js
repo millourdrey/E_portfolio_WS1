@@ -1,14 +1,6 @@
 // Welcome Message
 window.onload = function(){
 
-    window.alert("Welcome to Millourd Rey G. De Castro's Portfolio!");
-
-    document.getElementById("title").innerText =
-    "Welcome to My Portfolio";
-
-    document.getElementById("title").style.color = "red";
-    document.getElementById("title").style.fontSize = "45px";
-
     console.log("Portfolio loaded successfully.");
 
 }
